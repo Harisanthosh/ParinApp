@@ -1,0 +1,6 @@
+#Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+
+Host 52.91.184.65
+    HostName 52.91.184.65
+    User ec2-user
+    IdentityFile Parin.ppk '' 
