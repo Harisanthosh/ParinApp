@@ -22,7 +22,7 @@ app.layout = html.Div(style={'textAlign': 'center'},children=[
     html.H1(children='Parin App'),
 
     html.Div(children='''
-        Parin: A real time production line monitoring system which collects data every 2 minutes
+        Parin: A real time production line monitoring system which collects data dynamically every 2 minutes
     '''),
 
     dcc.Graph(
